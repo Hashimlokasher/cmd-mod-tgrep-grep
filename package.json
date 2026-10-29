@@ -1,0 +1,35 @@
+{
+	"name": "cmd-mod-tgrep-grep",
+	"version": "0.1.0",
+	"type": "module",
+	"description": "Routes Command Code's built-in grep tool through tgrep's trigram index when a server is live - 100x faster selective searches on a 124k-file tree, with automatic fallback to ripgrep.",
+	"license": "MIT",
+	"author": "Hashim (https://github.com/Hashimlokasher)",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Hashimlokasher/cmd-mod-tgrep-grep.git"
+	},
+	"keywords": [
+		"cmd-mod",
+		"cmd-mod-hook",
+		"cmd-mod-flag",
+		"tgrep",
+		"search",
+		"grep",
+		"performance"
+	],
+	"commandcode": {
+		"mods": ["./index.ts"]
+	},
+	"files": [
+		"index.ts",
+		"bench",
+		"benchmarks",
+		"README.md",
+		"BENCHMARKS.md",
+		"LICENSE"
+	],
+	"engines": {
+		"node": ">=20"
+	}
+}
